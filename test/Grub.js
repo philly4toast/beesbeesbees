@@ -22,4 +22,9 @@ describe('Grub class functionality', function() {
     expect(grub.eat).to.be.a('function');
   });
 
+    it('should have an `parent` property that is set to `queen`', function() {
+    expect(grub.parent).to.equal('queen');
+  });
+
+
 });
